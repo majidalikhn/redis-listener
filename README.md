@@ -17,15 +17,25 @@ You can run this project in any IDE by simply running it as any C# console proje
 
 ### Running with Docker
 
-You can run the project using Docker. First, you'll need to build the image:
+#### Using Pre-Built Docker Image
+
+You can find pre-built Docker images at the following Docker repository: [majidalikhn/redis-listener](https://hub.docker.com/r/majidalikhn/redis-listener)
+
+To pull the latest image and run it:
+
+```bash
+docker pull majidalikhn/redis-listener:latest
+docker-compose up
+```
+
+Make sure you have the `docker-compose.yml` file configured with the appropriate Redis host and other settings.
+
+#### Building the Image Yourself
+
+If you prefer to build the Docker image yourself:
 
 ```bash
 docker build -t Redis-Listener:latest .
-```
-
-Then you can run the project using the `docker-compose.yml` file, making sure to modify it with the appropriate Redis host and other configurations:
-
-```bash
 docker-compose up
 ```
 
