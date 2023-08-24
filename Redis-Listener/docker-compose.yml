@@ -1,0 +1,11 @@
+﻿version: '3.8'
+services:
+  redis-listener:
+    image: redis-listener:latest
+    container_name: redis-listener
+    hostname: redis-listener
+    environment:
+      REDIS_SERVER: "your-redis:6379"
+      REDIS_SUBSCRIPTION_CHANNEL: "redis-topic"
+    networks:
+      your-network: {}

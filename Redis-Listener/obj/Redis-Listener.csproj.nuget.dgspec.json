@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\khan\\OneDrive - Nordischer Maschinenbau Rud.Baader GmbH & Co KG\\Desktop\\Personal\\Projects\\Redis-Listener\\Redis-Listener\\Redis-Listener.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\khan\\OneDrive - Nordischer Maschinenbau Rud.Baader GmbH & Co KG\\Desktop\\Personal\\Projects\\Redis-Listener\\Redis-Listener\\Redis-Listener.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khan\\OneDrive - Nordischer Maschinenbau Rud.Baader GmbH & Co KG\\Desktop\\Personal\\Projects\\Redis-Listener\\Redis-Listener\\Redis-Listener.csproj",
+        "projectName": "Redis-Listener",
+        "projectPath": "C:\\Users\\khan\\OneDrive - Nordischer Maschinenbau Rud.Baader GmbH & Co KG\\Desktop\\Personal\\Projects\\Redis-Listener\\Redis-Listener\\Redis-Listener.csproj",
+        "packagesPath": "C:\\Users\\khan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khan\\OneDrive - Nordischer Maschinenbau Rud.Baader GmbH & Co KG\\Desktop\\Personal\\Projects\\Redis-Listener\\Redis-Listener\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\khan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Baader-Digitalization/_packaging/Baader-Digitalization/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Baader-Digitalization/baader-library/_packaging/Library-Artifacts/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
