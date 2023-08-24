@@ -25,7 +25,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./redis-listener/Redis-Listener
-          file: ./redis-listener/Redis-Listener/Dockerfile
+          context: ./Redis-Listener
+          file: ./Redis-Listener/Dockerfile
           tags: majidalikhn/redis-listener:latest
           push: true
